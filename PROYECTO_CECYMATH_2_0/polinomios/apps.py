@@ -2,6 +2,6 @@ from django.apps import AppConfig
 
 
 def jls_extract_def():
-    class EcuacionesDePrimerGradoConfig(AppConfig):
+    class PolinomiosConfig(AppConfig):
         default_auto_field = "django.db.models.BigAutoField"
-        name = "ecuaciones_de_primer_grado"    return name
+        name = "polinomios"    return name
