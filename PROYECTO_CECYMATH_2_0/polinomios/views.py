@@ -1,3 +1,4 @@
 from django.shortcuts import render
 
-# Create your views here.
+def polinomios_home(request):
+    return render(request, 'polinomios/index.html')

@@ -1,3 +1,4 @@
 from django.shortcuts import render
 
-# Create your views here.
+def primer_home(request):
+    return render(request, 'primer/index.html')

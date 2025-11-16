@@ -1,3 +1,4 @@
 from django.shortcuts import render
 
-# Create your views here.
+def jerarquia_home(request):
+    return render(request, 'jerarquia/index.html')

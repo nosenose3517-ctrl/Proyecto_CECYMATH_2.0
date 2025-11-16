@@ -1,3 +1,4 @@
 from django.shortcuts import render
 
-# Create your views here.
+def multiplicacion_home(request):
+    return render(request, 'multiplicacion/index.html')
